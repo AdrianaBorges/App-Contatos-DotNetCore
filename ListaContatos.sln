@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaContatos", "ListaContatos.csproj", "{265E403B-0988-4111-B764-303008BC71F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaContatos", "ListaContatos.csproj", "{265E403B-0988-4111-B764-303008BC71F1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ListaContatos.DB", "..\ListaContatos.DB\ListaContatos.DB.sqlproj", "{A4D623DF-7E4A-4240-BA17-3412C07DA7DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{265E403B-0988-4111-B764-303008BC71F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{265E403B-0988-4111-B764-303008BC71F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{265E403B-0988-4111-B764-303008BC71F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D623DF-7E4A-4240-BA17-3412C07DA7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D623DF-7E4A-4240-BA17-3412C07DA7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D623DF-7E4A-4240-BA17-3412C07DA7DD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A4D623DF-7E4A-4240-BA17-3412C07DA7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D623DF-7E4A-4240-BA17-3412C07DA7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D623DF-7E4A-4240-BA17-3412C07DA7DD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
